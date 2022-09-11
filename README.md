@@ -1,1 +1,1 @@
-# Estudo-de-Caso-01---Supermercado
+# Estudo-de-Caso-Supermercado
