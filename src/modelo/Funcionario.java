@@ -32,4 +32,9 @@ public class Funcionario extends Pessoa {
 		this.salario = salario;
 	}
 
+	public String toString() {
+		return "Nome: " + this.getNome() + "\nCPF: " + this.getCPF() + "\nData de nascimento: " + this.getDataNasc()
+				+ "\nData de admissão: " + this.getDataAdmissao() + "\nSalário: R$" + this.getSalario();
+	}
+
 }

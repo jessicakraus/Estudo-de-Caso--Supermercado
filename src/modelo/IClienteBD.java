@@ -10,6 +10,4 @@ public interface IClienteBD {
 
 	public boolean alterar(Cliente c, int id);
 
-	public boolean inativar(Cliente c, int id);
-
 }

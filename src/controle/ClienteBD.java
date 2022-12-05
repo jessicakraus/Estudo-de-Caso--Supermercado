@@ -25,10 +25,4 @@ public class ClienteBD implements IClienteBD {
 		return false;
 	}
 
-	@Override
-	public boolean inativar(Cliente c, int id) {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
 }

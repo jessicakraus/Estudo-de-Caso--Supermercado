@@ -25,10 +25,4 @@ public class FuncionarioBD implements IFuncionarioBD {
 		return false;
 	}
 
-	@Override
-	public boolean inativar(Funcionario f, int id) {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
 }

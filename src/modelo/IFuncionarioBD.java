@@ -10,6 +10,4 @@ public interface IFuncionarioBD {
 
 	public boolean alterar(Funcionario f, int id);
 
-	public boolean inativar(Funcionario f, int id);
-
 }

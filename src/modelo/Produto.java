@@ -2,14 +2,21 @@ package modelo;
 
 public class Produto {
 
+	private int id;
 	private String nomeProduto;
 	private Double valor;
-	private int quantidadeEstoque;
-	private Float peso;
+	private Double peso;
 	private String unidadeMedida;
 	private String setor;
-	private String descricao;
 
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+	
 	public String getNomeProduto() {
 		return nomeProduto;
 	}
@@ -26,19 +33,11 @@ public class Produto {
 		this.valor = valor;
 	}
 
-	public int getQuantidadeEstoque() {
-		return quantidadeEstoque;
-	}
-
-	public void setQuantidadeEstoque(int quantidadeEstoque) {
-		this.quantidadeEstoque = quantidadeEstoque;
-	}
-
-	public Float getPeso() {
+	public Double getPeso() {
 		return peso;
 	}
 
-	public void setPeso(Float peso) {
+	public void setPeso(Double peso) {
 		this.peso = peso;
 	}
 
@@ -57,13 +56,10 @@ public class Produto {
 	public void setSetor(String setor) {
 		this.setor = setor;
 	}
-
-	public String getDescricao() {
-		return descricao;
-	}
-
-	public void setDescricao(String descricao) {
-		this.descricao = descricao;
+	
+	public String toString() {
+		return "Nome: " + this.getNomeProduto() + "\nValor: " + this.getValor() + "\nPeso: "
+				+ this.getPeso() + "\nUnidade de medida: " + this.getUnidadeMedida() + "\nSetor: " + this.getSetor();
 	}
 
 }

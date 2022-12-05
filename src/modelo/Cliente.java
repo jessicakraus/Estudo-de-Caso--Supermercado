@@ -21,4 +21,9 @@ public class Cliente extends Pessoa {
 		this.codigo = codigo;
 	}
 
+	public String toString() {
+		return "Nome: " + this.getNome() + "\nCPF: " + this.getCPF() + "\nData de nascimento: " + this.getDataNasc()
+				+ "\nE-mail: " + this.getEmail() + "\nCódigo: " + this.getCodigo();
+	}
+
 }
